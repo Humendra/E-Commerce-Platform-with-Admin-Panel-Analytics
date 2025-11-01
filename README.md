@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Online Shopping platform(E-commerce website)
 ## About:
 Welcome to the E-Commerce Website project! This web application is designed to provide a seamless online shopping experience to users while empowering administrators with efficient management tools. The website is built using Java, Spring Boot, JSP, and Front-end technologies, ensuring a robust and scalable foundation for your e-commerce venture.
@@ -92,4 +93,30 @@ One of the best features of the project is the mailing system. The user receives
 
 
 
+=======
+# E-Commerce-Platform-with-Admin-Panel-Analytics
+An end-to-end e-commerce web application with a user storefront, secure authentication, payment integration using Stripe, and an admin panel with analytics and order management features.
+
+🚀 Features
+
+👥 User
+User Registration & Login (JWT-based)
+Product browsing with filters & search
+Add to Cart, Checkout, Stripe Payment
+View Orders & Order History
+
+🛠️ Admin
+Admin Authentication
+Product CRUD (Create, Read, Update, Delete)
+View Orders & Manage Status
+Sales Analytics Dashboard (Charts, Filters)
+
+🧱 Tech Stack
+Frontend: React.js, Tailwind CSS, Axios, React Router
+Backend: Node.js, Express.js
+Database: MongoDB (Mongoose)
+Authentication: JWT (Access & Refresh Tokens)
+Payments: Stripe API
+Charts/Analytics: Chart.js or Recharts
+>>>>>>> 1aacab75c42a0da823fa7b4189947e92fcb7bdd6
 
