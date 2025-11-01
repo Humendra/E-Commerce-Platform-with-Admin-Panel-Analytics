@@ -120,3 +120,51 @@ Payments: Stripe API
 Charts/Analytics: Chart.js or Recharts
 >>>>>>> 1aacab75c42a0da823fa7b4189947e92fcb7bdd6
 
+🛍️ E-Commerce Website — Run Guide
+⚙️ Prerequisites
+
+Before running the project, make sure you have:
+
+Java JDK 17 or higher installed
+
+Apache Maven installed and configured in PATH
+
+MySQL Server installed and running
+
+🚀 Steps to Run the Project
+1. Clone the Repository
+git clone https://github.com/Humendra/E-Commerce-Platform-with-Admin-Panel-Analytics.git
+
+2. Navigate to the Spring Boot Project
+cd E-Commerce-Website/SpringBootProject-E-Commerce-Website
+
+3. Configure Database
+
+Open src/main/resources/application.properties
+
+Update MySQL credentials:
+
+spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce
+spring.datasource.username=your_mysql_username
+spring.datasource.password=your_mysql_password
+
+
+Create database manually in MySQL:
+
+CREATE DATABASE ecommerce;
+
+4. Build the Project
+mvn clean install
+
+5. Run the Application
+mvn spring-boot:run
+
+6. Access the Website
+
+Once started successfully, open your browser and go to:
+
+http://localhost:8080
+
+
+✅ That’s it! Your E-Commerce Website is now running locally.
+
